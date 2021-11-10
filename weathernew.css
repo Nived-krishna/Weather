@@ -1,0 +1,81 @@
+body
+{
+background-image: url("./Animated\ Shape.svg");
+height: 100vh;
+background-repeat: no-repeat;
+font-family: 'Roboto', sans-serif;
+overflow: hidden;
+}
+form
+{
+    margin-right: 40%;
+}
+nav
+{
+    background-image: url("./Animated\ Shape.svg");
+}
+button
+{
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+div.widget
+{
+  position: relative;
+  width: 550px;
+  height: 250px;
+  margin: 185px auto;
+  background-color: #fcfdfd;
+  border-radius: 30px;
+  padding: 25px;
+  padding-right: 39px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+}
+
+div.date
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.4);
+}
+
+div.city
+{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
+
+div.temp
+{
+  font-size: 77px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+}
+
+div.panel
+{
+  display: inline-block;
+}
+
+div.right-panel
+{
+  position: absolute;
+  float: right;
+  top: 0;
+  margin-top: 70px;
+  padding-left: 10px;
+}
+div.type
+{
+  font-size: 20px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+  position: relative;
+  left: 418px;
+  top: -32px;
+}
